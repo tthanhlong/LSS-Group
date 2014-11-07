@@ -1,0 +1,26 @@
+1. App quảng bá sản phẩm: quần áo hoặc mỹ phẩm.
+2. Chi tiết:
+- Xây dựng một application để quảng bá sản phẩm trên di động.
+- Xây dựng một server quản lý thông tin cửa hàng, sản phẩm và cung cấp API cho phía client.
+3. Chức năng cơ bản:
++ Application:
+	- Danh sách sản phẩm và hình minh họa sản phẩm.
+	- Xem chi tiết sản phẩm.
+	- Danh sách cửa hàng, địa chỉ.
+	- Xem chi tiết các sản phẩm của cửa hàng.
+	- Xem thông tin khuyến mãi mới.
+	- Xem thông tin các sự kiện mới.
+	- Hiển thị bản đồ các cửa hàng trong bán kính akm.
+	- Cho phép người dùng nhận thông báo khi có một sản phẩm mới được đăng hoặc đợt khuyến mãi mới.
+	- 
++ Server:
+	- Cung cấp tài khoản cho phía cửa hàng để login vào hệ thống.
+	- Cho phép quản lý sản phẩm, hình ảnh về sản phẩm.
+	- Cho phép quản lý thông tin cửa hàng, địa chỉ,...(cho phép chọn vị trí cửa hàng trên bản đồ.)
+	- Cho phép đăng tin tức khuyến mãi, sự kiện sắp diễn ra.
+	- 
+4. Vấn đề đặt ra:
+- Cung cấp application miễn phí.
+-> Phải có cửa hàng sử dụng thì ứng dụng mới có dữ liệu để xem.
+* Giải quyết:
+- Có thể cho cửa hàng dùng thử server trong thời gian x ngày, đưa sản phẩm tối đa lên hệ thống là y sản phẩm. Khi đó trên ứng dụng sẽ có dữ liệu. => Vấn đề còn lại là "làm thế nào để ứng dụng được nhiều ng biết tới!"
